@@ -33,6 +33,8 @@
 				&kp LSHFT   &trans   &trans    &trans   &trans     &trans     &trans     &trans      &kp LBKT    &kp RBKT    &kp UP     &kp RSHFT
 				&trans      &trans   &mo 2     &trans   &trans     &kp SPACE  &kp C_PP   &kp BSLH    &kp LEFT    &kp DOWN    &kp RIGHT  &kp C_PP  
 			>;
+			
+			sensor-bindings = <&inc_dec_kp LC(MINUS) LC(PLUS)>;
 		};
 
 		left {
